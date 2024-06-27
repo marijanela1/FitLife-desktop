@@ -995,10 +995,16 @@ img {
 .testimonials img {
   width: 200px;
   border-radius: 100%;
-  margin: 20px ;
+  padding: 20px ;
 }
 .testimonial-item {
   align-items: center;
+}
+@media (max-width:575px) {
+  .testimonial-item {
+    align-items: center;
+    width: 100%;
+  }
 }
 .testimonials {
   align-items: center;
@@ -1074,7 +1080,7 @@ img {
   .plan {
     display: inline-flexbox;
     width: 60%;
-    height: 7vh;
+    height: 70vh;
     margin: 50px auto;
   }
 }
