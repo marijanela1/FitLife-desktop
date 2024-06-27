@@ -1030,6 +1030,10 @@ img {
   .testimonials img {
     width: 100px;
   }
+  .slika {
+    border-radius: 100%;
+    margin: 30px;
+  }
 }
 .btn {
   border-radius: 40px;
@@ -1070,8 +1074,8 @@ img {
   .plan {
     display: inline-flexbox;
     width: 60%;
-    height: 60vh;
-    margin: 40px auto;
+    height: 7vh;
+    margin: 50px auto;
   }
 }
 /*--------------------------------------------------------------
